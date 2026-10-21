@@ -6,7 +6,7 @@ require (
 	github.com/Eiton/vulkan v0.0.0-20260924123253-b670409ed96a
 	github.com/flopp/go-findfont v0.1.0
 	github.com/go-gl/gl v0.0.0-20231021071112-07e5d0ea2e71
-	github.com/go-gl/mathgl v1.0.0
+	github.com/go-gl/mathgl v1.2.0
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/gorilla/websocket v1.5.3
 	github.com/ikemen-engine/beep/v2 v2.1.2-0.20260920031044-d7bdc24ec9d2
