@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: ikemen-go-lobby
+    runtime: docker
+    dockerfilePath: ./Dockerfile.lobby
+    plan: free
+    region: frankfurt # Closest Render region to South Africa (WACS/Equiano subsea route)
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8080
+      # Optional: Free Cloudflare Realtime TURN credentials (for strict Symmetric CGNAT / LTE players)
+      - key: CF_TURN_TOKEN_ID
+        sync: false
+      - key: CF_TURN_API_TOKEN
+        sync: false
+      # Optional: Custom TURN server fallback
+      - key: TURN_SERVER
+        sync: false
+      - key: TURN_USER
+        sync: false
+      - key: TURN_PASS
+        sync: false

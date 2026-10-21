@@ -1,0 +1,66 @@
+module github.com/ikemen-engine/Ikemen-GO
+
+go 1.27.0
+
+require (
+	github.com/Eiton/vulkan v0.0.0-20260924123253-b670409ed96a
+	github.com/flopp/go-findfont v0.1.0
+	github.com/go-gl/gl v0.0.0-20231021071112-07e5d0ea2e71
+	github.com/go-gl/mathgl v1.0.0
+	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
+	github.com/gorilla/websocket v1.5.3
+	github.com/ikemen-engine/beep/v2 v2.1.2-0.20260920031044-d7bdc24ec9d2
+	github.com/ikemen-engine/ggpo v0.0.0-20260914163559-279d7303151f
+	github.com/ikemen-engine/reisen v0.1.10-0.20261002224432-3a7df23d0df2
+	github.com/leonkasovan/gl v0.0.0-20251110213347-e04040ce71e2
+	github.com/lukegb/dds v0.0.0-20190402175749-8b7170e64003
+	github.com/mdouchement/hdr v0.2.4
+	github.com/pion/webrtc/v4 v4.2.25
+	github.com/qmuntal/gltf v0.24.2
+	github.com/sqweek/dialog v0.0.0-20220809060634-e981b270ebbf
+	github.com/tidwall/gjson v1.20.0
+	github.com/tidwall/sjson v1.2.5
+	github.com/veandco/go-sdl2 v0.5.0-alpha.7.0.20250220045537-7f43f67a3a12
+	github.com/yuin/gopher-lua v1.1.0
+	golang.org/x/exp v0.0.0-20220609121020-a51bd0440498
+	golang.org/x/image v0.47.0
+	golang.org/x/mobile v0.0.0-20221110043201-43a038452099
+	golang.org/x/sys v0.49.0
+	golang.org/x/text v0.43.0
+	gopkg.in/ini.v1 v1.67.0
+)
+
+require (
+	github.com/TheTitanrain/w32 v0.0.0-20200114052255-2654d97dbd3d // indirect
+	github.com/google/uuid v1.6.0 // indirect
+	github.com/hajimehoshi/go-mp3 v0.3.4 // indirect
+	github.com/icza/bitio v1.1.0 // indirect
+	github.com/jfreymuth/oggvorbis v1.0.5 // indirect
+	github.com/jfreymuth/vorbis v1.0.2 // indirect
+	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
+	github.com/mewkiz/flac v1.0.12 // indirect
+	github.com/mewkiz/pkg v0.0.0-20230226050401-4010bf0fec14 // indirect
+	github.com/pion/datachannel v1.6.3 // indirect
+	github.com/pion/dtls/v3 v3.1.15 // indirect
+	github.com/pion/ice/v4 v4.4.8 // indirect
+	github.com/pion/interceptor v0.1.49 // indirect
+	github.com/pion/logging v0.2.4 // indirect
+	github.com/pion/mdns/v2 v2.2.2 // indirect
+	github.com/pion/randutil v0.1.0 // indirect
+	github.com/pion/rtcp v1.2.20 // indirect
+	github.com/pion/rtp v1.10.6 // indirect
+	github.com/pion/sctp v1.12.0 // indirect
+	github.com/pion/sdp/v3 v3.0.20 // indirect
+	github.com/pion/srtp/v3 v3.1.3 // indirect
+	github.com/pion/stun/v4 v4.0.1 // indirect
+	github.com/pion/transport/v5 v5.1.1 // indirect
+	github.com/pion/turn/v5 v5.1.2 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/samhocevar/go-meltysynth v0.0.0-20230403180939-aca4a036cb16 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
+	github.com/wlynxg/anet v0.0.5 // indirect
+	golang.org/x/crypto v0.48.0 // indirect
+	golang.org/x/net v0.50.0 // indirect
+	golang.org/x/time v0.14.0 // indirect
+)
