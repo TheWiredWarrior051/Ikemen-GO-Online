@@ -154,7 +154,7 @@ func (s *System) computeContentFingerprint() string {
 func (lm *LobbyManager) wsURL() string {
 	u := strings.TrimSpace(sys.cfg.Netplay.LobbyServer)
 	if u == "" {
-		u = "ws://127.0.0.1:8080/ws"
+		u = "wss://ikemen-go-lobby.onrender.com/ws"
 	}
 	return u
 }
