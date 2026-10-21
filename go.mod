@@ -16,7 +16,7 @@ require (
 	github.com/lukegb/dds v0.0.0-20190402175749-8b7170e64003
 	github.com/mdouchement/hdr v0.2.4
 	github.com/pion/webrtc/v4 v4.2.25
-	github.com/qmuntal/gltf v0.24.2
+	github.com/qmuntal/gltf v0.29.0
 	github.com/sqweek/dialog v0.0.0-20220809060634-e981b270ebbf
 	github.com/tidwall/gjson v1.20.0
 	github.com/tidwall/sjson v1.2.5
