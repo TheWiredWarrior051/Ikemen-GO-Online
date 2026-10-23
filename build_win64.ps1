@@ -24,10 +24,12 @@ if (!(Test-Path (Join-Path $repoRoot "data\ikemen1\system.def"))) {
     if (!(Test-Path "$spDir\.git")) {
         git clone --depth=1 https://github.com/ikemen-engine/Ikemen-GO-Screenpack.git $spDir
     }
-    foreach ($folder in @("chars", "data", "font", "sound", "stages")) {
+    foreach ($folder in @("chars", "data", "font", "sound", "stages", "video")) {
         $dst = Join-Path $repoRoot $folder
         New-Item -ItemType Directory -Force -Path $dst | Out-Null
-        Copy-Item -Path "$spDir\$folder\*" -Destination $dst -Recurse -Force
+        Get-ChildItem -Path "$spDir\$folder" -Force | ForEach-Object {
+            Copy-Item -Path $_.FullName -Destination $dst -Recurse -Force
+        }
     }
     $sysDef = Join-Path $repoRoot "data\ikemen1\system.def"
     if (Test-Path $sysDef) {
